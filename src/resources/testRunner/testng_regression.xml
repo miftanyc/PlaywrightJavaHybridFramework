@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Playwirght TN Regression Suite" verbose="4">
+    <listeners>
+        <listener class-name = "com.qa.tn.listeners.ExtentReportListener"/>
+    </listeners>
+
+    <test name="Playwirght TN Hybrid Framework">
+        <classes>
+            <class name="com.qa.tn.testcases.RegistrationTest"/>
+            <class name="com.qa.tn.testcases.LoginTest"/>
+            <class name="com.qa.tn.testcases.SearchProductTest"/>
+        </classes>
+    </test>
+</suite>
